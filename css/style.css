@@ -1,1 +1,1257 @@
 
+
+    font-family: 'Lato', sans-serif;
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-family: Moldyen;
+
+.container_new
+{
+    width:1520px;
+    height:60px;
+    margin:auto;
+    border:1px solid green; 
+}
+.row_new
+{
+    width:1520px;
+    height:60px;
+    margin:auto;
+    display:flex;
+    /* border:1px solid green; */
+}
+.row_nav
+{
+    width:1520px;
+    height:80px;
+    margin:auto;
+    display:flex;
+    /* border:1px solid green; */
+}
+
+span
+{
+	font-family: 'Lato', sans-serif;
+	font-size: 30px;
+	font-weight: 400;
+	font-style:normal;
+	line-height: 1.5 rem;
+	letter-spacing: 0.1px;
+	color: #ffffff;
+}
+
+.leaf_image{
+    background-image: url(../images/leaf.webp);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 100%;
+    height: 55px;
+    width:55px;
+}
+
+.text_black_bar
+{
+	color: #ffffff;
+	font-family: 'Lato', sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	font-style:normal;
+	line-height: 1.5 rem;
+	letter-spacing: 0.1px;
+
+}
+.text-white{
+    color: #ffffff;
+    font-size: 22px;
+    font-family: 'Lato', sans-serif;
+}
+
+.text_black_bar_phone
+{
+	color: #ffffff;
+	font-family: 'Lato', sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	font-style:normal;
+	line-height: 1.5 rem;
+	letter-spacing: 0.1px;
+
+}
+
+.text_black_bar_phone:hover
+{
+	color: #FB0804;
+	font-size: 14px;
+	font-weight: 400;
+	font-style:normal;
+	line-height: 1.5 rem;
+	letter-spacing: 0.1px;
+
+}
+
+@fontface{
+    	font-family: Moldyen;
+    	src:url(webfonts/Moldyen.otf),
+    	    url(webfonts/Moldyen.ttf),
+    }
+
+.hotel_main{
+    color: #000000;
+    font-family: "Pathway Gothic One", Sans-serif;
+    font-size: 42px;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-style: normal;
+    line-height: 1em;
+    text-align: center;
+    /*letter-spacing: -1.2px;*/
+    /*margin-left: 10px;*/
+    /*margin-bottom: 20px;*/
+}
+
+.hotel_text
+{
+	color: #000000;
+    font-family: Moldyen;
+    font-size: 13.5px;
+    padding-top: 2px;
+    padding-left: 12px;
+    margin-bottom: 0px;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-style: normal;
+    line-height: 1.5em;
+    letter-spacing: 5px;
+    text-align: center;
+}
+
+.date_month{
+    font-family: Moldyen;
+    font-size: 10px;
+}
+
+.Booking
+{
+	width:180px;
+	height:40px;
+	padding: 8px 48px 0 60px;
+	background-color: #ff4157; 
+	color: #ffffff;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    margin-bottom: 0px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.5em;
+    margin-left:50px;
+    font-style: normal;
+    box-sizing: border-box;
+}
+.Booking:hover
+{
+	width:180px;
+	height:40px;
+	padding: 8px 48px 0 60px;
+	background-color: #162541; 
+	color: #ffffff;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    margin-bottom: 0px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.5em;
+    margin-left:50px;
+    font-style: normal;
+    box-sizing: border-box;
+    transition: all ease-out 0.5s;
+}
+
+.nav-link
+{
+	font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: rgb(222, 14, 14);
+
+}
+
+.nav-text:hover
+{
+	color: #C60906;
+	font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+
+}
+
+.h5-text
+{
+	text-align: center;
+    color: #ffffff;
+    font-family: Moldyen;
+    font-size: 26px;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-style: normal;
+    line-height: 1em;
+    letter-spacing: 3.8px;
+    margin: 0px 0px 11px 0px;
+    position: absolute;
+    left: 40%;
+    top: -80px;
+}
+.h5-big_text
+{
+	text-align: center;
+    color: #ffffff;
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 100px;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-style: normal;
+    line-height: 1em;
+    letter-spacing: -2px;
+    position: absolute;
+    left: 15%;
+    top: -60px;
+
+}
+
+.h5-text:hover
+{
+	text-align: center;
+    color: #ffffff;
+    font-family: Moldyen;
+    font-size: 26px;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-style: normal;
+    line-height: 1em;
+    letter-spacing: 3.8px;
+    margin: 0px 0px 11px 0px;
+    position: absolute;
+    left: 40%;
+    top: -400px;
+    transition: ease in out 0.5s;
+}
+.h5-big_text:hover
+{
+	text-align: center;
+    color: #ffffff;
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 100px;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-style: normal;
+    line-height: 1em;
+    letter-spacing: -2px;
+    position: absolute;
+    left: 15%;
+    top: -360px;
+    transition: ease in out 0.5s;
+
+}
+.form_overlap
+{
+	margin-top: -20px;
+	position: absolute;
+}
+
+.form_overlap_1
+{
+	margin-top: -70px;
+	z-index: 1;
+}
+.book_now
+{
+	color: #ffffff;
+    font-family: "Pathway Gothic One", Sans-serif;
+    font-size: 44px;
+    font-weight: 400;
+    margin-right: 0;
+    margin-left:0px;
+    text-transform: uppercase;
+    font-style: normal;
+    line-height: 1.1em;
+    letter-spacing: -0.7px;
+    padding-bottom: 0px;
+}
+.best_price
+{
+	color: rgba(255,255,255,0.7);
+    font-family: "Lato", Sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-style: normal;
+    line-height: 1.5em;
+    letter-spacing: 1px;
+}
+.box-form
+{
+	background-color: #ff4157;
+}
+.form-long
+{
+    height:35px;
+    width: 170px;
+    
+}
+.form-small
+{
+    height:35px;
+    width:100;
+    
+}
+.search
+{
+	width:158px;
+	height:48px;
+	padding: 12px 48px 0 50px;
+	background-color: #162541;
+    border: 1px solid #162541;
+	color: #ffffff;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    margin-bottom: 0px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.5em;
+    font-style: normal;
+    box-sizing: border-box;
+}
+.search:hover
+{
+	width:158px;
+	height:48px;
+	padding: 12px 48px 0 50px;
+	background-color: transparent;
+    border: 1px solid #162541; 
+	color: #ffffff;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    margin-bottom: 0px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.5em;
+    font-style: normal;
+    box-sizing: border-box;
+    transition: all ease-out 0.5s;
+}
+.container-fluid-top-margin
+{
+    margin-top:150px;
+    z-index: 2;
+}
+.lmage-half
+{
+    background-image: url(../images/bg_pic_half.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height:610px;
+
+}
+h5
+{
+    color: #616161;
+    font-family: Moldyen;
+    font-size: 24px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.4em;
+    letter-spacing: -0.45px;
+    margin-left: 100px;
+    margin-top:70px;
+}
+
+h1
+{
+    color: #000000;
+    font-family: "Pathway Gothic One", Sans-serif;
+    font-size: 61px;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-style: normal;
+    line-height: 1em;
+    letter-spacing: -1.2px;
+    margin-left: 100px;
+    margin-bottom:50px;
+}
+.line
+{
+    width: 100px;
+    height:100px;
+    background-color: #000000;
+    display: flex;
+    margin: 0;
+    direction: ltr;
+    margin-left: 100px;
+
+}
+
+p
+{
+    font-family: "Lato", Sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.5em;
+    margin-right: 100px;
+    margin-left: 100px;
+    color: #7d7d7d;
+    padding-top:50px;
+}
+
+.read-more
+{
+	width:190px;
+	height:48px;
+	padding: 12px 48px 0 50px;
+	background-color: transparent;
+    border: 1px solid #162541; 
+	color: #070707;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    margin-bottom: 0px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.5em;
+    text-align:center;
+    font-style: normal;
+    box-sizing: border-box;
+    transition: all ease-out 0.5s;
+    margin-left:100px;
+    margin-top:30px;
+}
+.read-more:hover
+{
+	width:190px;
+	height:48px;
+	padding: 12px 48px 0 50px;
+	background-color: #162541;
+    border: 1px solid #162541;
+	color: #ffffff;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    margin-bottom: 0px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.5em;
+    font-style: normal;
+    box-sizing: border-box;
+    margin-left:100px;
+    margin-top:30px;
+}
+
+.blue-background
+{
+    background-color: #162541;
+    height:230px;
+}
+.big-awsome
+{
+    color: #ff4157;
+    font-size: 40px;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+    margin-left: 140px;
+    margin-top:30px;
+}
+h2
+{
+    color: #ffffff;
+    font-family: "Pathway Gothic One", Sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-style: normal;
+    line-height: 1.1em;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom:0px;
+    padding-bottom:0px;
+
+}
+.row-new-middle
+{
+    width:1520px;
+    height:220px;
+    margin:auto;
+    display:flex;
+    /* border:1px solid green; */
+}
+.container-new-middle
+{
+    width:1520px;
+    height:220px;
+    margin:auto;
+    display:flex;
+    /* border:1px solid green; */
+}
+
+.text-blue-text
+{
+    color: #e1e1e1;
+    font-family: "Lato", Sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0px 0px 0px 0px;
+    text-align: center;
+    margin-top:0px;
+    padding-top:20px;
+}
+
+.comfortable-head
+{
+    color: #000000;
+    font-family: "Pathway Gothic One", Sans-serif;
+    font-size: 50px;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-style: normal;
+    line-height: 1.1em;
+    letter-spacing: -1px;
+    margin-top:40px;
+    padding-bottom:0px;
+}
+.text-p
+{
+    font-family: "Lato", Sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.5em;
+    letter-spacing: 0.2px;
+    color: #7d7d7d;
+    margin-top:0px;
+    padding-top:20px;
+}
+
+.row-new-mid
+{
+    width:1520px;
+    height:220px;
+    margin:auto;
+    display:flex;
+    /* border:1px solid green; */
+}
+
+.lmage-3rd
+{
+    background-image: url(../images/bg_pic_00.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height:610px;
+
+}
+.common-head
+{
+    font-family: "Pathway Gothic One", Sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 1.1em;
+    letter-spacing: -0.6px;
+    color: #000000;
+    margin-top:60px;
+}
+
+.Booking-red_white
+{
+	width:238px;
+	height:45px;
+	padding: 10px 48px 0 55px;
+	background-color: #ff4157; 
+	color: #ffffff;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    margin-bottom: 0px;
+    font-weight: 900;
+    font-style: normal;
+    text-align: center;
+    line-height: 1.5em;
+    letter-spacing: 1px;
+    margin-left:50px;
+    font-style: normal;
+    box-sizing: border-box;
+    border: 1px solid #ff4157;
+}
+.Booking-red_white:hover
+{
+	width:238px;
+	height:45px;
+	padding: 10px 48px 0 60px;
+	background-color: #ffffff; 
+	color: #ff4157;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    margin-bottom: 0px;
+    font-weight: 900;
+    font-style: normal;
+    letter-spacing: 1px;
+    text-align: center;
+    line-height: 1.5em;
+    margin-left:50px;
+    font-style: normal;
+    box-sizing: border-box;
+    border: 1px solid #ff4157;
+    transition: all ease-out 0.5s;
+}
+.light-black
+{
+    background-color: rgba(224, 222, 222, .4);
+}
+
+.line-image-1
+{
+    background-image: url(../images/double_room.webp);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height:282px;
+
+}
+.line-image-2
+{
+    background-image: url(../images/family_room.webp);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height:282px;
+
+}
+
+
+
+
+
+.Book-outline
+{
+	width:180px;
+	height:45px;
+	padding: 8px 48px 0 50px;
+	background-color: #ffffff; 
+	color: #000000;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    margin-bottom: 0px;
+    font-weight: 900;
+    font-style: normal;
+    text-align: center;
+    line-height: 1.5em;
+    letter-spacing: 1px;
+    margin-left:50px;
+    font-style: normal;
+    box-sizing: border-box;
+    border: 1px solid #000000;
+    margin-top: 30px;
+}
+.Book-outline:hover
+{
+	width:180px;
+	height:45px;
+	padding: 8px 48px 0 50px;
+	background-color: #ffffff; 
+	color: #ff4157;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    margin-bottom: 0px;
+    font-weight: 900;
+    font-style: normal;
+    text-align: center;
+    line-height: 1.5em;
+    letter-spacing: 1px;
+    margin-left:50px;
+    font-style: normal;
+    box-sizing: border-box;
+    border: 1px solid #ff4157;
+    transition: all ease-out 0.5s;
+}
+
+.line-image-3
+{
+    background-image: url(../images/dinner_bar2.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height:800px;
+    margin-top:32px;
+
+}
+.line-dashed
+{
+    width:88%;
+    height:1px;
+    border: 1px dashed rgb(194, 192, 192);
+}
+.price-list-seperator
+{
+    font-family: "Lato", Sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 61px;
+    color: #000000;
+    align-self: flex-start;
+    margin-bottom:16px;
+    margin-right:0px;
+    margin-top:0px;
+    padding: 0 0 0 0;
+}
+.price-list-item
+{
+    font-family: Moldyen;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.5em;
+    color: #000000;
+    padding: 15px 0px 0px 0px;
+    font-size: 34px;
+    padding-top:25px;
+}
+.price-list-text
+{
+    font-family: "Lato", Sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    font-style: 1.5em;
+    color: #7d7d7d;
+    margin: -29px 150px 0px 0px;
+    text-align: left;
+    /* margin-top:1px; */
+    
+}
+.common-head-big
+{
+    color: #000000;
+    font-family: "Pathway Gothic One", Sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.1em;
+    letter-spacing: -1px;
+}
+
+.common-head-text-big
+{
+    font-family: "Lato", Sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.5em;
+    color: #7d7d7d;
+}
+
+.Book-outline-forBig
+{
+	width:180px;
+	height:45px;
+	padding: 8px 35px 0 35px;
+	background-color: #ffffff; 
+	color: #000000;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    margin-bottom: 0px;
+    font-weight: 900;
+    font-style: normal;
+    text-align: center;
+    line-height: 1.5em;
+    letter-spacing: 1px;
+    margin-left:50px;
+    font-style: normal;
+    box-sizing: border-box;
+    border: 1px solid #000000;
+    margin-top: 30px;
+}
+.Book-outline-forBig:hover
+{
+	width:180px;
+	height:45px;
+    padding: 8px 35px 0 35px;
+	background-color: #ffffff; 
+	color: #ff4157;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    margin-bottom: 0px;
+    font-weight: 900;
+    font-style: normal;
+    text-align: center;
+    line-height: 1.5em;
+    letter-spacing: 1px;
+    margin-left:50px;
+    font-style: normal;
+    box-sizing: border-box;
+    border: 1px solid #ff4157;
+    transition: all ease-out 0.5s;
+}
+.image-fix
+{
+    background-image: url("../images/AirPort_suttle.jpeg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    height:100vh;
+}
+
+.Book_A_Suit
+{
+	width:200px;
+	height:40px;
+	padding: 8px 20px 0 20px;
+	background-color: #aac05c; 
+	color: #ffffff;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    margin-bottom: 0px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.5em;
+    margin-left:60;
+    font-style: normal;
+    box-sizing: border-box;
+}
+.Book_A_Suit:hover
+{
+	width:200px;
+	height:40px;
+	padding: 8px 20px 0 20px;
+	background-color: #162541; 
+	color: #ffffff;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    margin-bottom: 0px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.5em;
+    margin-left:50px;
+    font-style: normal;
+    box-sizing: border-box;
+    transition: all ease-out 0.5s;
+}
+
+.get_a_free_text
+{
+    font-family: "Lato", Sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.4em;
+    letter-spacing: 0.2px;
+    color: #000000;
+    text-align:left;
+    /* padding-left:30px; */
+}
+
+.text-left
+{
+    font-family: "Lato", Sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.5em;
+    color: #7d7d7d;
+    padding-left:20px;
+}
+.price_start
+{
+    font-family: "Lato", Sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.5em;
+    color: #ffffff;
+    margin:80px 0 0 50px;
+
+}
+.doller_250
+{
+    color: #ffffff;
+    font-family: Moldyen;
+    font-size: 54px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 0.9em;
+    letter-spacing: -2.5px;
+    margin-left:50px;
+}
+.Book-a-room
+{
+	width:180px;
+	height:45px;
+	padding: 10px 20px 0 20px;
+	background-color: #ff4157; 
+	color: #ffffff;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    margin-bottom: 0px;
+    font-weight: 900;
+    font-style: normal;
+    text-align: center;
+    line-height: 1.5em;
+    letter-spacing: 1px;
+    margin-left:50px;
+    font-style: normal;
+    box-sizing: border-box;
+    border: 1px solid #ff4157;
+    margin-top: 30px;
+}
+.Book-a-room:hover
+{
+	width:180px;
+	height:45px;
+	padding: 10px 20px 0 20px;
+	background-color: transparent; 
+	color: #ff4157;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    margin-bottom: 0px;
+    font-weight: 900;
+    font-style: normal;
+    text-align: center;
+    line-height: 1.5em;
+    letter-spacing: 1px;
+    margin-left:50px;
+    font-style: normal;
+    box-sizing: border-box;
+    border: 1px solid #ff4157;
+    transition: all ease-out 0.5s;
+}
+.doller_250_small
+{
+    color: #ffffff;
+    font-family: Moldyen;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+.common-head-1
+{
+    font-family: "Pathway Gothic One", Sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 1.1em;
+    letter-spacing: -0.6px;
+    color: #000000;
+}
+
+.email
+{
+    font-family: "Old Standard TT", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.5em;
+    color: rgba(0, 0, 0, 0.84);
+    margin-top:0px;
+}
+.email span
+{
+    font-family: "Lato", Sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.5em;
+    fill: #FF4157;
+    color: #FF4157;
+}
+.toll-free-num
+{
+    font-family: "Lato", Sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.4em;
+    letter-spacing: 0.5px;
+    margin-top:0px;
+    padding-bottom:5px;
+  }
+  .toll-free-text
+  {
+    font-family: "Lato", Sans-serif;
+    font-size: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1.4em;
+    letter-spacing: 1.5px;
+    color: rgba(0,0,0,0.25);
+  }
+
+  .image-fix-2
+{
+    background-image: url("../images/bg_pic2.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    height:100vh;
+}
+.after-image
+{
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    pointer-events: none;
+    -webkit-perspective: 1200px;
+    perspective: 1200px;
+}
+
+.common-head-big-white
+{
+    color: #ffffff;
+    font-family: "Pathway Gothic One", Sans-serif;
+    font-size: 50px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.1em;
+    letter-spacing: -1px;
+    text-align: center;
+}
+
+.common-head-text-big-white
+{
+    align-self: flex-start;
+    text-align: left;
+    color: #ffffff;
+    font-family: "Lato", Sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: italic;
+    line-height: 1.5em;
+    width: 330px;
+    background-color: rgba(0,0,0,0);
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 35px 0px;
+    order: 1;
+}
+.rounded-art
+{
+width:50px;
+height:50px;
+border-radius: 50%;
+background-image: url(../images/Vimal_rai.webp);
+background-size: cover;
+background-repeat: no-repeat;
+margin-top: 35px;
+margin-left: -20px;
+}
+
+.rounded-art-2
+{
+width:50px;
+height:50px;
+border-radius: 50%;
+background-image: url(../images/Suyas_malhotra.webp);
+background-size: cover;
+background-repeat: no-repeat;
+margin-top: 35px;
+}
+
+.rounded-art-3
+{
+width:50px;
+height:50px;
+border-radius: 50%;
+background-image: url(../images/Esha_Kulwani.webp);
+background-size: cover;
+background-repeat: no-repeat;
+margin-top: 35px;
+}
+.author-text
+{
+    color: #ffffff;
+    font-family: "Lato", Sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.5em;
+    text-align: left;
+}
+
+.author-text span
+{
+    /* color: rgba(255,255,255,0.7); */
+    font-family: "Lato", Sans-serif;
+    font-size: 10px;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 1 em;
+    letter-spacing: 1.5px;
+    text-align: left;
+}
+.tag-gray-text
+{
+    font-family: Moldyen;
+    font-size: 24px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.4em;
+    letter-spacing: -0.7px;
+    color: #616161;
+    margin-top:90px;
+    text-align:center;
+    
+}
+
+.with-a-text
+{
+    color: #000000;
+    font-family: "Pathway Gothic One", Sans-serif;
+    font-size: 50px;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-style: normal;
+    line-height: 1.1em;
+    letter-spacing: -0.1px;
+    text-align: center;
+}
+
+.with-a-text span
+{
+    color: #ff4157;
+    font-family: "Pathway Gothic One", Sans-serif;
+    font-size: 50px;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-style: normal;
+    line-height: 1.1em;
+    letter-spacing: -0.1px;
+    text-align: center;
+}
+
+.hotel-logo-bottom{
+    font-family: "Pathway Gothic One", Sans-serif;
+    font-size: 60px;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-style: normal;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 40px;
+    padding-bottom:0px;
+}
+.hotel-logo-bottom-small{
+    font-family: Moldyen;
+    font-size: 13.5px;
+    font-weight: 300;
+    padding-top: 0px;
+    padding-left:20px;
+    padding-top:0px;
+    text-transform: uppercase;
+    font-style: normal;
+    line-height: 1.5em;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 0px;
+    margin-bottom:50px;
+    letter-spacing: 5px;
+}
+
+
+.text-center-full
+{
+    font-family: "Lato", Sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.5em;
+    color: #7d7d7d;
+    text-align: center;
+    margin-top:10px;
+}
+.light-background
+{
+    background-color: #f5f5f5;
+}
+
+.footer-background
+{
+    background-color: #000000;
+    height:360px;
+}
+.footer-image
+{
+    background-image: url(../images/invert-logo.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    height:100px;
+    margin-bottom:15px;
+    margin-top:75px;
+}
+.footer-ul
+{
+    font-family: "Lato", Sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.5em;
+    letter-spacing: 0.6px;
+    color: #ffffff;
+    list-style-type: none;
+    text-align: center;
+}
+.footer-ul a span
+{
+    font-size: 15px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.5em;
+    letter-spacing: 0.6px;
+    font-family: "Lato", Sans-serif;
+    margin-right:35px;
+}
+.footer-ul a{
+    text-decoration-line: none;
+}
+
+.footer-ul a span:hover
+{
+    font-size: 15px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.5em;
+    letter-spacing: 0.6px;
+    font-family: "Lato", Sans-serif;
+    margin-right:35px;
+    color:#FF4157;
+    transition: all ease-in-out .5s;
+}
+
+.footer-copyright
+{
+    color: rgba(125, 125, 125, 0.55);
+    font-family: "Lato", Sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.5em;
+    text-align: center;
+    margin-top:40px;
+}
+
+.footer-copyright span
+{
+    color: #ff4157;
+    font-family: "Lato", Sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.5em;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
